@@ -21,7 +21,6 @@ This architecture implements the following Microservice Design Patterns:
 3. [Externalized Configuration](https://microservices.io/patterns/externalized-configuration.html)
 4. [Remote Procedure Invocation](https://microservices.io/patterns/communication-style/rpi.html)
 5. [API Gateway](https://microservices.io/patterns/apigateway.html)
-6. [Database per Service](https://microservices.io/patterns/data/database-per-service.html)
 
 ## Layers
 
@@ -111,27 +110,4 @@ Deployment is done with containers in mind. A Docker Compose file along with Doc
 
 ![REST UI](https://raw.githubusercontent.com/aryan0001-coder/nestjs-rest-microservices/master/docs/img/rest-ui.png)
 
-## Roadmap
 
-### General
-
-- [ ] Use RxJS Observables instead of Promises
-- [ ] Add Integration Tests
-- [ ] Add CI/CD Pipeline
-- [ ] Add Kubernetes Manifests
-- [x] Pre-populate DBs
-- [ ] Distributed Tracing
-
-### API Gateway
-
-- [ ] Add authentication
-- [ ] Add authorization
-- [ ] Add event sourcing
-- [ ] Add request/input data validation
-- [ ] Improve error handling
-
-### Microservices
-
-- [ ] Add health checks
-- [ ] Add caching
-- [ ] Improve error handling
